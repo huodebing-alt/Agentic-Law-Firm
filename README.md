@@ -216,10 +216,3 @@ I built this so lawyers can spend their hours where their training actually
 matters. If it works for you, your support keeps it improving.
 
 [大佬要打赏杯咖啡钱吗？](https://github.com/sponsors/huodebing-alt)
-
-> Note: if the link 404s, the sponsor profile has not been published yet.
-> Enable it at GitHub Settings → Sponsors → Set up your profile, and the
-> same URL will start working.
->
-> 备注：如果链接 404，说明 Sponsor profile 还没启用。到 GitHub Settings
-> → Sponsors → Set up your profile 启用即可，同一个链接会自动生效。
