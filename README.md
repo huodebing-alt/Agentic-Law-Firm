@@ -215,11 +215,7 @@ worth more than the coffee. [Buy me that coffee](https://github.com/sponsors/huo
 I built this so lawyers can spend their hours where their training actually
 matters. If it works for you, your support keeps it improving.
 
-如果 Agentic-Law-Firm 这周帮你省下了哪怕一个 billable hour——那种本该用于判断、
-却被格式吞掉的小时——那一小时比一杯咖啡值钱得多。[请我喝那杯咖啡](https://github.com/sponsors/huodebing-alt)。
-
-这套工具是为了让律师把时间花在自己受训练去做的判断上。如果它对你有用，你的
-支持会让它继续变好。
+[大佬要打赏杯咖啡钱吗？](https://github.com/sponsors/huodebing-alt)
 
 > Note: if the link 404s, the sponsor profile has not been published yet.
 > Enable it at GitHub Settings → Sponsors → Set up your profile, and the
