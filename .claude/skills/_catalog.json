@@ -1,0 +1,638 @@
+{
+  "corporate": [
+    {
+      "name": "ma-dd-checklist-cn",
+      "description": "Generate a China M&A due diligence checklist tailored to deal type, sector and structure. Use whenever a buyer or investor needs a DD scope."
+    },
+    {
+      "name": "ma-spa-draft-cn",
+      "description": "Draft a Chinese M&A SPA from a term-sheet brief."
+    },
+    {
+      "name": "ma-spa-review-cn",
+      "description": "Review a Chinese M&A SPA against checklists and flag risk."
+    },
+    {
+      "name": "ma-merger-control-filing",
+      "description": "Decide whether a SAMR merger-control filing is required and, if so, draft the package."
+    },
+    {
+      "name": "company-formation-wfoe",
+      "description": "Prepare a WFOE incorporation package: articles, scope, registered capital plan, SAMR filing."
+    },
+    {
+      "name": "company-formation-llc-cn",
+      "description": "Prepare a PRC LLC incorporation package."
+    },
+    {
+      "name": "board-resolution-cn",
+      "description": "Draft a board resolution for a PRC company under 《公司法》 for a specified matter."
+    },
+    {
+      "name": "shareholder-resolution-cn",
+      "description": "Draft a shareholder resolution for a PRC company."
+    },
+    {
+      "name": "articles-amendment-cn",
+      "description": "Amend the articles of association of a PRC company."
+    },
+    {
+      "name": "ipo-prospectus-section",
+      "description": "Draft a section of an IPO prospectus (business / legal / risk factors / related-party transactions)."
+    },
+    {
+      "name": "antitrust-conduct-audit",
+      "description": "Audit a company's commercial conduct (resale price maintenance, exclusivity, MFN) for monopoly-agreement risk."
+    },
+    {
+      "name": "pipl-cross-border-transfer",
+      "description": "Decide the cross-border transfer pathway under PIPL (security assessment / standard contract / certification) and prepare the package."
+    },
+    {
+      "name": "gdpr-dpia",
+      "description": "Draft a GDPR DPIA for a specified processing operation."
+    },
+    {
+      "name": "fcpa-third-party-dd",
+      "description": "Conduct FCPA / UKBA third-party due diligence on a counter-party / agent / distributor."
+    },
+    {
+      "name": "esg-disclosure-gap",
+      "description": "Gap-analyse a company's current sustainability disclosure against the applicable regime (CSRC / HKEX / EU CSRD)."
+    },
+    {
+      "name": "outbound-investment-roadmap",
+      "description": "Build an outbound-investment regulatory roadmap (NDRC / MOFCOM / SAFE)."
+    },
+    {
+      "name": "fie-record-filing",
+      "description": "Prepare a MOFCOM record filing under the Foreign Investment Law."
+    },
+    {
+      "name": "fintech-licence-survey",
+      "description": "Survey the licensing landscape for a fintech activity in China (PBOC / CBIRC / CSRC)."
+    },
+    {
+      "name": "national-security-review-cn",
+      "description": "Decide whether a foreign-investment matter triggers PRC national-security review and, if so, prepare the package."
+    },
+    {
+      "name": "vie-structure-memo",
+      "description": "Memo on the legality and recent regulator posture on VIE / red-chip structures for a target sector."
+    },
+    {
+      "name": "bcr-data-flow-mapping",
+      "description": "Map data flows for a multinational and identify all cross-border transfer paths under PIPL + GDPR + sectoral rules."
+    }
+  ],
+  "contracts": [
+    {
+      "name": "contract-review-cn",
+      "description": "Review a Chinese-language contract: risk, missing clauses, compliance gaps. Use when the user uploads a contract or says '审一下'."
+    },
+    {
+      "name": "contract-review-en",
+      "description": "Review an English-language contract under common-law style."
+    },
+    {
+      "name": "contract-redline",
+      "description": "Apply tracked-changes edits to a Word contract."
+    },
+    {
+      "name": "spa-checklist",
+      "description": "SPA checklist (M&A SPA, sale of business, sale of equity)."
+    },
+    {
+      "name": "msa-sow-draft",
+      "description": "Draft an MSA + SOW pair for a services engagement."
+    },
+    {
+      "name": "nda-mutual",
+      "description": "Draft a mutual NDA."
+    },
+    {
+      "name": "nda-one-way",
+      "description": "Draft a one-way NDA (disclosing party or receiving party)."
+    },
+    {
+      "name": "loi-binding-demarcation",
+      "description": "Draft an LOI with explicit binding vs non-binding clause demarcation."
+    },
+    {
+      "name": "term-sheet-one-pager",
+      "description": "Compress a deal into a one-page term sheet."
+    },
+    {
+      "name": "licence-tech-cn",
+      "description": "Draft a technology licence agreement governed by PRC law."
+    },
+    {
+      "name": "licence-trademark",
+      "description": "Draft a trademark licence agreement."
+    },
+    {
+      "name": "distribution-exclusive-cn",
+      "description": "Draft an exclusive distribution agreement governed by PRC law."
+    },
+    {
+      "name": "franchise-cn",
+      "description": "Draft a PRC franchise agreement and identify the franchise filing requirement."
+    },
+    {
+      "name": "saas-subscription-cn",
+      "description": "Draft a Chinese-language SaaS subscription agreement."
+    },
+    {
+      "name": "supply-master-cn",
+      "description": "Draft a master supply / purchase agreement governed by PRC law."
+    },
+    {
+      "name": "loan-bilateral-cn",
+      "description": "Draft a PRC bilateral loan agreement with standard security."
+    },
+    {
+      "name": "real-estate-sale-cn",
+      "description": "Draft a PRC real-estate sale contract for a land-use right + building."
+    },
+    {
+      "name": "real-estate-lease-cn",
+      "description": "Draft a PRC commercial lease."
+    },
+    {
+      "name": "settlement-release",
+      "description": "Draft a settlement agreement with appropriately scoped release."
+    },
+    {
+      "name": "epc-fidic-review",
+      "description": "Review an EPC contract on a FIDIC base."
+    },
+    {
+      "name": "ip-assignment-cn",
+      "description": "Draft a PRC IP assignment agreement with appropriate recordal steps."
+    },
+    {
+      "name": "guarantee-contract-cn",
+      "description": "Draft a PRC guarantee contract under 《民法典》 担保编."
+    }
+  ],
+  "compliance": [
+    {
+      "name": "compliance-program-design",
+      "description": "Design a corporate compliance program covering ABAC, antitrust, export control, data."
+    },
+    {
+      "name": "policy-conflict-of-interest",
+      "description": "Draft a conflict-of-interest policy."
+    },
+    {
+      "name": "policy-gifts-hospitality",
+      "description": "Draft a gifts and hospitality policy with thresholds and approval workflow."
+    },
+    {
+      "name": "policy-data-handling-cn",
+      "description": "Draft a data-handling policy under PIPL / DSL / CSL."
+    },
+    {
+      "name": "training-abac-deck",
+      "description": "Build an ABAC training deck (~30 slides) + script + quiz."
+    },
+    {
+      "name": "training-antitrust-deck",
+      "description": "Build an antitrust training deck for sales and procurement."
+    },
+    {
+      "name": "investigation-plan",
+      "description": "Draft an internal-investigation plan from an allegation summary."
+    },
+    {
+      "name": "investigation-interview-outline",
+      "description": "Draft an interview outline for a privileged investigation."
+    },
+    {
+      "name": "regulator-response-samr",
+      "description": "Draft a response to a SAMR information request."
+    },
+    {
+      "name": "kyc-onboarding",
+      "description": "Run KYC on a new customer counter-party."
+    },
+    {
+      "name": "ad-claim-substantiation",
+      "description": "Substantiate ad claims under 《广告法》 and flag absolute terms."
+    },
+    {
+      "name": "ai-product-filing-cn",
+      "description": "Decide whether a generative-AI product needs an algorithm filing or security assessment, and prepare the package."
+    },
+    {
+      "name": "data-incident-response",
+      "description": "Run a data-incident response playbook (PIPL + DSL)."
+    },
+    {
+      "name": "sanctions-screening",
+      "description": "Screen counter-parties and transactions against OFAC / EU / UK / PRC unreliable-entity lists."
+    },
+    {
+      "name": "supplier-code-of-conduct",
+      "description": "Draft a supplier code of conduct (ESG + ABAC + labour)."
+    }
+  ],
+  "ip": [
+    {
+      "name": "trademark-search-cn",
+      "description": "Run a CNIPA trademark availability search and produce a clearance memo."
+    },
+    {
+      "name": "trademark-file-cn",
+      "description": "Prepare a CNIPA trademark application package."
+    },
+    {
+      "name": "trademark-opposition-cn",
+      "description": "Draft a trademark opposition before CNIPA."
+    },
+    {
+      "name": "patent-invention-draft-cn",
+      "description": "Draft an invention-patent application."
+    },
+    {
+      "name": "patent-fto-analysis",
+      "description": "Run a freedom-to-operate analysis on a product against a target jurisdiction."
+    },
+    {
+      "name": "copyright-software-reg-cn",
+      "description": "Prepare a PRC software copyright registration."
+    },
+    {
+      "name": "trade-secret-program",
+      "description": "Build a trade-secret program (identification, marking, access, training, departure)."
+    },
+    {
+      "name": "udrp-complaint",
+      "description": "Draft a UDRP complaint."
+    },
+    {
+      "name": "ip-portfolio-audit",
+      "description": "Audit an IP portfolio: scope, gaps, lapse risk, prune list."
+    },
+    {
+      "name": "ip-litigation-complaint-cn",
+      "description": "Draft a PRC IP infringement complaint."
+    }
+  ],
+  "disputes": [
+    {
+      "name": "complaint-civil-cn",
+      "description": "Draft a PRC civil complaint (民事起诉状)."
+    },
+    {
+      "name": "answer-civil-cn",
+      "description": "Draft a PRC civil defence (民事答辩状)."
+    },
+    {
+      "name": "appellate-brief-cn",
+      "description": "Draft a PRC second-instance appeal brief."
+    },
+    {
+      "name": "evidence-index-cn",
+      "description": "Build a PRC court evidence index (证据清单)."
+    },
+    {
+      "name": "preservation-application-cn",
+      "description": "Draft a pre-litigation property preservation application."
+    },
+    {
+      "name": "arbitration-request-cietac",
+      "description": "Draft a CIETAC request for arbitration."
+    },
+    {
+      "name": "arbitration-defence-cietac",
+      "description": "Draft a CIETAC statement of defence."
+    },
+    {
+      "name": "enforcement-application-cn",
+      "description": "Draft a PRC court enforcement application post-judgment / post-award."
+    },
+    {
+      "name": "mediation-brief",
+      "description": "Draft a mediation brief for a commercial mediation session."
+    },
+    {
+      "name": "settlement-offer-letter",
+      "description": "Draft a settlement offer letter (with appropriate without-prejudice marking)."
+    },
+    {
+      "name": "discovery-plan-cross-border",
+      "description": "Build a cross-border discovery / evidence plan with PRC blocking-statute considerations."
+    }
+  ],
+  "tax": [
+    {
+      "name": "cit-position-memo",
+      "description": "Build a PRC CIT position memo for a specific transaction."
+    },
+    {
+      "name": "vat-position-memo",
+      "description": "Build a PRC VAT position memo."
+    },
+    {
+      "name": "tp-master-file",
+      "description": "Draft a TP master file per BEPS Action 13 / PRC requirements."
+    },
+    {
+      "name": "tp-local-file",
+      "description": "Draft a TP local file for a PRC entity."
+    },
+    {
+      "name": "cross-border-holding-structure",
+      "description": "Design a cross-border holding structure for a PRC outbound investor."
+    },
+    {
+      "name": "customs-classification",
+      "description": "Classify a product under PRC customs and recommend HS code."
+    },
+    {
+      "name": "iit-residency-memo",
+      "description": "Build a PRC IIT residency memo for an individual."
+    },
+    {
+      "name": "ten-percent-cit-treaty-relief",
+      "description": "Apply 10% withholding-rate treaty relief and prepare the supporting documentation."
+    }
+  ],
+  "labor": [
+    {
+      "name": "labor-contract-cn",
+      "description": "Draft a PRC labour contract."
+    },
+    {
+      "name": "termination-notice-cn",
+      "description": "Draft a termination notice / severance agreement."
+    },
+    {
+      "name": "non-compete-clause-cn",
+      "description": "Draft a non-compete clause with lawful compensation."
+    },
+    {
+      "name": "employee-handbook-cn",
+      "description": "Draft a PRC employee handbook."
+    },
+    {
+      "name": "esop-design-cn",
+      "description": "Design and document a PRC employee ESOP."
+    },
+    {
+      "name": "mass-termination-package",
+      "description": "Build a mass-termination package (notice + severance + labour-bureau filing)."
+    },
+    {
+      "name": "expatriate-package-cn",
+      "description": "Build an expatriate package for an inbound assignment to China."
+    },
+    {
+      "name": "social-security-cross-border",
+      "description": "Plan social-security coordination for a cross-border secondment."
+    }
+  ],
+  "real-estate": [
+    {
+      "name": "title-due-diligence-cn",
+      "description": "Conduct PRC real-estate title due diligence."
+    },
+    {
+      "name": "lease-review-cn",
+      "description": "Review a PRC commercial lease."
+    },
+    {
+      "name": "construction-claim-memo",
+      "description": "Build a construction-claim memo (delay / variation / additional cost)."
+    },
+    {
+      "name": "reit-launch-package-cn",
+      "description": "Build a PRC infrastructure REIT launch package: structure, regulator engagement, prospectus support."
+    }
+  ],
+  "individual": [
+    {
+      "name": "divorce-agreement-cn",
+      "description": "Draft a PRC negotiated divorce agreement."
+    },
+    {
+      "name": "custody-plan-cn",
+      "description": "Draft a PRC custody and visitation plan."
+    },
+    {
+      "name": "asset-division-cn",
+      "description": "Draft an asset division plan under PRC marital property rules."
+    },
+    {
+      "name": "will-cn",
+      "description": "Draft a PRC will under 《民法典》 Book VI."
+    },
+    {
+      "name": "trust-deed-cn",
+      "description": "Draft a PRC family-trust deed (limited PRC trust regime)."
+    },
+    {
+      "name": "iit-comprehensive-income-filing",
+      "description": "Prepare a PRC IIT annual filing for comprehensive income."
+    },
+    {
+      "name": "personal-injury-damages-cn",
+      "description": "Compute PRC personal-injury damages."
+    },
+    {
+      "name": "consumer-three-times-demand",
+      "description": "Draft a 三倍赔偿 consumer demand letter under 《消费者权益保护法》."
+    },
+    {
+      "name": "prenuptial-agreement-cn",
+      "description": "Draft a PRC prenuptial agreement on property and debt."
+    }
+  ],
+  "immigration": [
+    {
+      "name": "z-visa-package",
+      "description": "Prepare a PRC Z visa (work) package."
+    },
+    {
+      "name": "permanent-residence-cn",
+      "description": "Prepare a PRC permanent residence application for a qualifying foreigner."
+    },
+    {
+      "name": "eb5-feasibility",
+      "description": "Assess EB-5 feasibility for a PRC investor."
+    },
+    {
+      "name": "uk-innovator-feasibility",
+      "description": "Assess UK Innovator Founder visa feasibility."
+    },
+    {
+      "name": "hk-iang-package",
+      "description": "Prepare a Hong Kong IANG (graduate stay) package."
+    }
+  ],
+  "research": [
+    {
+      "name": "statute-lookup",
+      "description": "Look up PRC statute / regulation / judicial interpretation by topic or citation."
+    },
+    {
+      "name": "case-lookup",
+      "description": "Look up PRC court judgments by topic, party, or citation."
+    },
+    {
+      "name": "regulator-decisions",
+      "description": "Pull regulator decisions / guidance / FAQs."
+    },
+    {
+      "name": "westlaw-search",
+      "description": "Search Westlaw for foreign law (US / UK / EU)."
+    },
+    {
+      "name": "lexisnexis-search",
+      "description": "Search LexisNexis for foreign law (US / UK / EU / HK / SG)."
+    },
+    {
+      "name": "tianyancha-company",
+      "description": "Pull a counter-party profile from tianyancha."
+    },
+    {
+      "name": "qichacha-company",
+      "description": "Pull a counter-party profile from qichacha."
+    },
+    {
+      "name": "wenshu-precedent",
+      "description": "Search 裁判文书网 for precedent on a topic."
+    },
+    {
+      "name": "cnipa-search",
+      "description": "Search CNIPA for trademarks or patents."
+    },
+    {
+      "name": "comparative-law-cn-vs-us",
+      "description": "Build a comparative-law memo (PRC vs US) on a specific topic."
+    },
+    {
+      "name": "knowledge-search",
+      "description": "Search the operator's knowledge management system (iManage / NetDocuments / Notion) for prior work product."
+    }
+  ],
+  "doc-ops": [
+    {
+      "name": "extract-text",
+      "description": "Extract text (with structure) from a docx / pdf / scanned-pdf / doc / rtf."
+    },
+    {
+      "name": "format-deliverable",
+      "description": "Final-format any deliverable per docs/DOCUMENT_STYLE_GUIDE.md."
+    },
+    {
+      "name": "generate-redline",
+      "description": "Apply tracked-changes edits between original and revised .docx."
+    },
+    {
+      "name": "summarise-executive",
+      "description": "Build a 1-page executive summary preserving citations."
+    },
+    {
+      "name": "summarise-detailed",
+      "description": "Build a 3-page detailed brief preserving citations."
+    },
+    {
+      "name": "translate-cn-en",
+      "description": "Translate a legal document CN <-> EN with terminology consistency and citation preservation."
+    },
+    {
+      "name": "citation-check",
+      "description": "Verify all statute and case citations against statutes-rag and wenshu."
+    },
+    {
+      "name": "bundle-evidence",
+      "description": "Build an evidence bundle with index, pagination, and bookmarks."
+    },
+    {
+      "name": "bundle-closing",
+      "description": "Build a deal-closing bundle."
+    },
+    {
+      "name": "bundle-board-pack",
+      "description": "Build a board pack from a list of papers."
+    },
+    {
+      "name": "redact-pii",
+      "description": "Redact PII (and confidential information) from a document."
+    },
+    {
+      "name": "side-by-side-cn-en",
+      "description": "Build a side-by-side CN/EN deliverable."
+    },
+    {
+      "name": "anonymise-document",
+      "description": "Anonymise a document for sharing externally (replace party names with placeholders)."
+    }
+  ],
+  "workflows": [
+    {
+      "name": "full-due-diligence-cn",
+      "description": "End-to-end PRC M&A due diligence: corporate, contracts, employment, IP, real estate, tax, litigation. Use whenever the brief says 'full DD'."
+    },
+    {
+      "name": "ipo-readiness-cn",
+      "description": "End-to-end IPO readiness: gap analysis + remediation plan."
+    },
+    {
+      "name": "compliance-audit",
+      "description": "End-to-end compliance audit covering ABAC, antitrust, export control, data, IP, labour."
+    },
+    {
+      "name": "contract-portfolio-review",
+      "description": "Review an entire contract portfolio (e.g. all distribution agreements) for risk and renegotiation opportunities."
+    },
+    {
+      "name": "regulator-inquiry-response",
+      "description": "Handle a regulator inquiry end-to-end: triage, privilege scoping, response drafting, regulator engagement."
+    },
+    {
+      "name": "litigation-readiness",
+      "description": "Prepare a matter for active litigation: cause-of-action, pleadings, evidence preservation, witness map, damages."
+    },
+    {
+      "name": "deal-closing",
+      "description": "Build the full deal closing package: signing set, closing certs, secretary's certificate, opinions, bring-down."
+    },
+    {
+      "name": "weekly-portfolio-tracker",
+      "description": "Build a weekly tracker for the operator's matters: status, deadlines, next actions."
+    },
+    {
+      "name": "annual-compliance-calendar",
+      "description": "Build the annual compliance calendar for a PRC entity."
+    },
+    {
+      "name": "matter-status-report",
+      "description": "Build a per-matter status report for a partner / client."
+    },
+    {
+      "name": "weekly-deadline-digest",
+      "description": "Produce a weekly digest of all upcoming deadlines across active matters."
+    }
+  ],
+  "onboarding": [
+    {
+      "name": "first-time-setup",
+      "description": "First-time setup wizard. Use only via /onboard slash command."
+    },
+    {
+      "name": "configure-hard-gates",
+      "description": "Configure hard-gate triggers and the deal-value threshold."
+    },
+    {
+      "name": "install-mcp",
+      "description": "Install one or more MCP servers into the active harness configuration."
+    },
+    {
+      "name": "download-statutes",
+      "description": "Download statute texts into statutes/ per manifest."
+    }
+  ]
+}

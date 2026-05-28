@@ -1,0 +1,166 @@
+{
+  "mcpServers": {
+    "statutes-rag": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/statutes-rag/server.py"
+      ]
+    },
+    "wenshu": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/wenshu/server.py"
+      ]
+    },
+    "samr": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/samr/server.py"
+      ]
+    },
+    "cnipa": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/cnipa/server.py"
+      ]
+    },
+    "pkulaw-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/pkulaw-stub/server.py"
+      ]
+    },
+    "wkinfo-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/wkinfo-stub/server.py"
+      ]
+    },
+    "chinalawinfo-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/chinalawinfo-stub/server.py"
+      ]
+    },
+    "westlaw-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/westlaw-stub/server.py"
+      ]
+    },
+    "lexisnexis-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/lexisnexis-stub/server.py"
+      ]
+    },
+    "tianyancha-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/tianyancha-stub/server.py"
+      ]
+    },
+    "qichacha-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/qichacha-stub/server.py"
+      ]
+    },
+    "fadada-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/fadada-stub/server.py"
+      ]
+    },
+    "esign-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/esign-stub/server.py"
+      ]
+    },
+    "imanage-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/imanage-stub/server.py"
+      ]
+    },
+    "netdocuments-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/netdocuments-stub/server.py"
+      ]
+    },
+    "ms365-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/ms365-stub/server.py"
+      ]
+    },
+    "gmail-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/gmail-stub/server.py"
+      ]
+    },
+    "gdrive-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/gdrive-stub/server.py"
+      ]
+    },
+    "gcal-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/gcal-stub/server.py"
+      ]
+    },
+    "onedrive-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/onedrive-stub/server.py"
+      ]
+    },
+    "sharepoint-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/sharepoint-stub/server.py"
+      ]
+    },
+    "box-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/box-stub/server.py"
+      ]
+    },
+    "dropbox-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/dropbox-stub/server.py"
+      ]
+    },
+    "notion-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/notion-stub/server.py"
+      ]
+    },
+    "slack-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/slack-stub/server.py"
+      ]
+    },
+    "zoom-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/zoom-stub/server.py"
+      ]
+    },
+    "teams-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/teams-stub/server.py"
+      ]
+    }
+  }
+}

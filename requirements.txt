@@ -1,0 +1,8 @@
+# Core
+python-docx>=1.1.0
+pyyaml>=6.0
+requests>=2.31.0
+
+# MCP stub servers (optional; install only if you actually run them)
+mcp>=1.0.0
+# fastmcp>=0.4.0  # optional alternative MCP SDK

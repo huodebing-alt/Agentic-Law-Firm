@@ -1,0 +1,108 @@
+{
+  "version": "0.1",
+  "source": "Primarily 国家法律法规数据库 (flk.npc.gov.cn). Subscription sources may give faster cross-referencing.",
+  "statutes": [
+    {
+      "key": "civil-code",
+      "title_cn": "中华人民共和国民法典",
+      "title_en": "PRC Civil Code",
+      "effective": "2021-01-01"
+    },
+    {
+      "key": "company-law",
+      "title_cn": "中华人民共和国公司法",
+      "title_en": "PRC Company Law",
+      "effective": "2024-07-01"
+    },
+    {
+      "key": "contract-judicial-interp",
+      "title_cn": "最高人民法院关于审理民事案件适用《民法典》合同编通则若干问题的解释",
+      "title_en": "SPC interpretation on the Contracts Book of the Civil Code",
+      "effective": "2023-12-05"
+    },
+    {
+      "key": "foreign-investment-law",
+      "title_cn": "中华人民共和国外商投资法",
+      "title_en": "PRC Foreign Investment Law",
+      "effective": "2020-01-01"
+    },
+    {
+      "key": "labor-contract-law",
+      "title_cn": "中华人民共和国劳动合同法",
+      "title_en": "PRC Labour Contract Law",
+      "effective": "2008-01-01"
+    },
+    {
+      "key": "anti-monopoly-law",
+      "title_cn": "中华人民共和国反垄断法",
+      "title_en": "PRC Anti-Monopoly Law",
+      "effective": "2022-08-01"
+    },
+    {
+      "key": "personal-information-protection-law",
+      "title_cn": "中华人民共和国个人信息保护法",
+      "title_en": "PRC Personal Information Protection Law",
+      "effective": "2021-11-01"
+    },
+    {
+      "key": "data-security-law",
+      "title_cn": "中华人民共和国数据安全法",
+      "title_en": "PRC Data Security Law",
+      "effective": "2021-09-01"
+    },
+    {
+      "key": "cybersecurity-law",
+      "title_cn": "中华人民共和国网络安全法",
+      "title_en": "PRC Cybersecurity Law",
+      "effective": "2017-06-01"
+    },
+    {
+      "key": "civil-procedure-law",
+      "title_cn": "中华人民共和国民事诉讼法",
+      "title_en": "PRC Civil Procedure Law",
+      "effective": "2024-01-01"
+    },
+    {
+      "key": "criminal-law",
+      "title_cn": "中华人民共和国刑法",
+      "title_en": "PRC Criminal Law",
+      "effective": "2024-03-01"
+    },
+    {
+      "key": "arbitration-law",
+      "title_cn": "中华人民共和国仲裁法",
+      "title_en": "PRC Arbitration Law",
+      "effective": "2017-09-01"
+    },
+    {
+      "key": "trademark-law",
+      "title_cn": "中华人民共和国商标法",
+      "title_en": "PRC Trademark Law",
+      "effective": "2019-11-01"
+    },
+    {
+      "key": "patent-law",
+      "title_cn": "中华人民共和国专利法",
+      "title_en": "PRC Patent Law",
+      "effective": "2021-06-01"
+    },
+    {
+      "key": "copyright-law",
+      "title_cn": "中华人民共和国著作权法",
+      "title_en": "PRC Copyright Law",
+      "effective": "2021-06-01"
+    },
+    {
+      "key": "anti-unfair-competition-law",
+      "title_cn": "中华人民共和国反不正当竞争法",
+      "title_en": "PRC Anti-Unfair-Competition Law",
+      "effective": "2019-04-23"
+    },
+    {
+      "key": "advertising-law",
+      "title_cn": "中华人民共和国广告法",
+      "title_en": "PRC Advertising Law",
+      "effective": "2021-04-29"
+    }
+  ]
+}

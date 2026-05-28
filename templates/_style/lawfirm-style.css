@@ -1,0 +1,81 @@
+/* Agentic-Law-Firm — Chinese law-firm document style.
+   Black on white. No decorative colour. The only allowed coloured element is
+   the dark-red (#8B0000) bold critical-warning style. No emoji anywhere. */
+
+@page {
+  size: A4;
+  margin: 3.7cm 2.6cm 3.5cm 2.8cm; /* top right bottom left */
+}
+
+body {
+  font-family: "FangSong_GB2312", "仿宋_GB2312", "FangSong", "仿宋", serif;
+  font-size: 16pt; /* 三号 */
+  line-height: 28pt;
+  color: #000000;
+  background: #ffffff;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+h1.doc-title {
+  font-family: "FZXiaoBiaoSong-B05S", "方正小标宋简体", "SimSun", "宋体", serif;
+  font-size: 22pt; /* 二号 */
+  font-weight: normal;
+  text-align: center;
+  text-indent: 0;
+  margin: 2em 0 1em 0;
+}
+
+h2.section-h1 {
+  font-family: "SimHei", "黑体", sans-serif;
+  font-size: 16pt; /* 三号 */
+  font-weight: bold;
+  text-indent: 0;
+  margin-top: 1.5em;
+}
+
+h3.section-h2 {
+  font-family: "KaiTi_GB2312", "楷体_GB2312", "KaiTi", "楷体", serif;
+  font-size: 16pt;
+  text-indent: 0;
+  margin-top: 1em;
+}
+
+h4.section-h3 {
+  font-family: "FangSong_GB2312", "仿宋_GB2312", serif;
+  font-size: 16pt;
+  font-weight: bold;
+  text-indent: 0;
+}
+
+p { margin: 0; }
+
+.statute-quote {
+  font-family: "FangSong_GB2312", "仿宋_GB2312", serif;
+  font-size: 14pt; /* 小三 */
+  margin: 0.5em 2em;
+}
+
+.signature-block {
+  font-family: "KaiTi_GB2312", "楷体_GB2312", serif;
+  text-align: right;
+  margin-top: 3em;
+}
+
+.en, .num {
+  font-family: "Times New Roman", serif;
+}
+
+.critical-warning {
+  color: #8B0000;
+  font-weight: bold;
+  border: 1.5pt solid #000000;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  text-indent: 0;
+}
+
+/* Defensive: no decorative backgrounds anywhere. */
+* {
+  background-image: none !important;
+}

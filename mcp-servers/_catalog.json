@@ -1,0 +1,164 @@
+[
+  {
+    "name": "statutes-rag",
+    "display": "Statutes RAG",
+    "status": "stub",
+    "tool": "lookup_statute"
+  },
+  {
+    "name": "wenshu",
+    "display": "China Judgment Documents (裁判文书网)",
+    "status": "stub",
+    "tool": "search_judgments"
+  },
+  {
+    "name": "samr",
+    "display": "SAMR (国家市场监督管理总局)",
+    "status": "stub",
+    "tool": "samr_lookup"
+  },
+  {
+    "name": "cnipa",
+    "display": "CNIPA (国家知识产权局)",
+    "status": "stub",
+    "tool": "cnipa_search"
+  },
+  {
+    "name": "pkulaw-stub",
+    "display": "PKULaw (北大法宝)",
+    "status": "stub",
+    "tool": "pkulaw_search"
+  },
+  {
+    "name": "wkinfo-stub",
+    "display": "WKInfo (威科先行)",
+    "status": "stub",
+    "tool": "wkinfo_search"
+  },
+  {
+    "name": "chinalawinfo-stub",
+    "display": "ChinaLawInfo (北大法意)",
+    "status": "stub",
+    "tool": "chinalawinfo_search"
+  },
+  {
+    "name": "westlaw-stub",
+    "display": "Westlaw",
+    "status": "stub",
+    "tool": "westlaw_search"
+  },
+  {
+    "name": "lexisnexis-stub",
+    "display": "LexisNexis",
+    "status": "stub",
+    "tool": "lexis_search"
+  },
+  {
+    "name": "tianyancha-stub",
+    "display": "TianYanCha (天眼查)",
+    "status": "stub",
+    "tool": "tyc_company"
+  },
+  {
+    "name": "qichacha-stub",
+    "display": "QiChaCha (企查查)",
+    "status": "stub",
+    "tool": "qcc_company"
+  },
+  {
+    "name": "fadada-stub",
+    "display": "FaDaDa (法大大)",
+    "status": "stub",
+    "tool": "fdd_send"
+  },
+  {
+    "name": "esign-stub",
+    "display": "e-Sign (e签宝)",
+    "status": "stub",
+    "tool": "esign_send"
+  },
+  {
+    "name": "imanage-stub",
+    "display": "iManage",
+    "status": "stub",
+    "tool": "imanage_search"
+  },
+  {
+    "name": "netdocuments-stub",
+    "display": "NetDocuments",
+    "status": "stub",
+    "tool": "netdocs_search"
+  },
+  {
+    "name": "ms365-stub",
+    "display": "Microsoft 365",
+    "status": "stub",
+    "tool": "m365_call"
+  },
+  {
+    "name": "gmail-stub",
+    "display": "Gmail",
+    "status": "stub",
+    "tool": "gmail_call"
+  },
+  {
+    "name": "gdrive-stub",
+    "display": "Google Drive",
+    "status": "stub",
+    "tool": "gdrive_call"
+  },
+  {
+    "name": "gcal-stub",
+    "display": "Google Calendar",
+    "status": "stub",
+    "tool": "gcal_call"
+  },
+  {
+    "name": "onedrive-stub",
+    "display": "OneDrive",
+    "status": "stub",
+    "tool": "onedrive_call"
+  },
+  {
+    "name": "sharepoint-stub",
+    "display": "SharePoint",
+    "status": "stub",
+    "tool": "sharepoint_call"
+  },
+  {
+    "name": "box-stub",
+    "display": "Box",
+    "status": "stub",
+    "tool": "box_call"
+  },
+  {
+    "name": "dropbox-stub",
+    "display": "Dropbox",
+    "status": "stub",
+    "tool": "dropbox_call"
+  },
+  {
+    "name": "notion-stub",
+    "display": "Notion",
+    "status": "stub",
+    "tool": "notion_call"
+  },
+  {
+    "name": "slack-stub",
+    "display": "Slack",
+    "status": "stub",
+    "tool": "slack_call"
+  },
+  {
+    "name": "zoom-stub",
+    "display": "Zoom",
+    "status": "stub",
+    "tool": "zoom_call"
+  },
+  {
+    "name": "teams-stub",
+    "display": "Microsoft Teams",
+    "status": "stub",
+    "tool": "teams_call"
+  }
+]

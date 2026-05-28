@@ -1,0 +1,34 @@
+{
+  "page": {
+    "margin_top_cm": 3.7,
+    "margin_bottom_cm": 3.5,
+    "margin_left_cm": 2.8,
+    "margin_right_cm": 2.6,
+    "size": "A4"
+  },
+  "fonts": {
+    "title_cn": "方正小标宋简体",
+    "title_en": "Times New Roman",
+    "h1_cn": "黑体",
+    "h2_cn": "楷体_GB2312",
+    "h3_cn": "仿宋_GB2312",
+    "body_cn": "仿宋_GB2312",
+    "body_en": "Times New Roman",
+    "statute_quote_cn": "仿宋_GB2312",
+    "signature_cn": "楷体_GB2312"
+  },
+  "sizes_pt": {
+    "title": 22,
+    "h1": 16,
+    "h2": 16,
+    "h3": 16,
+    "body": 16,
+    "body_alt": 12,
+    "statute_quote": 14,
+    "footer": 10.5
+  },
+  "line_spacing_pt": 28,
+  "first_line_indent_chars": 2,
+  "alignment": "justify",
+  "critical_warning_color_hex": "8B0000"
+}

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Project
+.agentic-law-firm-config.json
+statutes/data/
+*.log
+tmp/
+scratch/
+
+# Build artifacts
+.agents/_generated/
