@@ -265,11 +265,16 @@ data sources whose efforts make tools like this possible.
 
 ## 12. Sponsor
 
-If Agentic-Law-Firm saved your firm even one billable hour this week — the
-kind you'd rather have spent on judgment than on formatting — that hour is
-worth more than the coffee. [Buy me that coffee](https://github.com/sponsors/huodebing-alt).
+Agentic-Law-Firm is free and open source. If it saves you time or helps you close your matter, consider supporting continued development:
 
-I built this so lawyers can spend their hours where their training actually
-matters. If it works for you, your support keeps it improving.
+- [Buy Me a Coffee](https://buymeacoffee.com/bieng) — one-time support
+- [GitHub Sponsors](https://github.com/sponsors/huodebing-alt) — recurring support through GitHub
 
-[大佬要打赏杯咖啡钱吗？](https://github.com/sponsors/huodebing-alt)
+Sponsorships help fund time spent maintaining skills, adding new agents, keeping up with Antigravity, Claude Code and engine API changes, and responding to community issues.
+
+Agentic-Law-Firm 是免费开源项目。如果它替你省下时间、帮你把案子推进，欢迎支持后续开发：
+
+- [Buy Me a Coffee](https://buymeacoffee.com/bieng) —— 一次性请杯咖啡
+- [GitHub Sponsors](https://github.com/sponsors/huodebing-alt) —— 通过 GitHub 持续赞助
+
+你的赞助会用于维护 skill、新增 agent、跟进 Antigravity 与 Claude Code 的接口变更，以及回应社区问题。
