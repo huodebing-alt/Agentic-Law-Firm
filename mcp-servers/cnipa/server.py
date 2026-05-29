@@ -25,9 +25,9 @@ if FastMCP is not None:
     mcp = FastMCP("cnipa")
 
     @mcp.tool()
-    def cnipa_search(keyword: str = "", type: str = "", class: str = "", limit: str = "") -> dict:
+    def cnipa_search(keyword: str = "", type: str = "", ipc_class: str = "", limit: str = "") -> dict:
         """Search the CNIPA database for trademarks and patents. Returns application number, status, owner, dates."""
-        return _stub_response({"keyword": keyword, "type": type, "class": class, "limit": limit})
+        return _stub_response({"keyword": keyword, "type": type, "class": ipc_class, "limit": limit})
 
     if __name__ == "__main__":
         mcp.run()
