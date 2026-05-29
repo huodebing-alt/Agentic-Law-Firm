@@ -1,5 +1,29 @@
 # MCP Catalogue
 
+## Important — install dependencies before launching the runtime
+
+Every MCP server in this repo is a **local Python process**. Without their dependencies installed they will all fail to launch the moment `claude` or `agy` opens the project, and every connector will appear grey or "disconnected" in the agent UI.
+
+Before the first run, do exactly this:
+
+```bash
+bash scripts/install-mcp-deps.sh   # creates .venv, installs every requirements.txt
+source .venv/bin/activate          # activate the venv in the same shell
+bash scripts/test-mcp.sh           # imports every server.py and reports PASS/FAIL
+claude                             # or: agy
+```
+
+If `test-mcp.sh` reports any `[FAIL]`:
+
+1. Make sure you actually activated `.venv` in the shell that runs `claude` / `agy` — a fresh terminal will not have it active automatically.
+2. Look at the traceback printed under the failing server name; the first `ModuleNotFoundError` tells you which package is missing.
+3. Re-run `bash scripts/install-mcp-deps.sh` after adding the missing package to either `mcp-servers/requirements.txt` or that server's own `requirements.txt`.
+4. For data sources that need an API key (CourtListener free tier, EDGAR User-Agent, LawNet, PACER), see that server's own `README.md` for how to set the relevant environment variable.
+
+The `/onboard` slash command runs steps 1, 3, and 4 automatically; you only need to do them by hand if you skip `/onboard`.
+
+## Servers
+
 - **statutes-rag** (Statutes RAG) — status: `stub` — tool: `lookup_statute`
 - **wenshu** (China Judgment Documents (裁判文书网)) — status: `stub` — tool: `search_judgments`
 - **samr** (SAMR (国家市场监督管理总局)) — status: `stub` — tool: `samr_lookup`

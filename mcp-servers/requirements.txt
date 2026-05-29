@@ -1,0 +1,30 @@
+# Shared dependencies for every MCP server in this repo.
+# Install with:  pip install -r mcp-servers/requirements.txt
+# (or use scripts/install-mcp-deps.sh which sets up a project venv first).
+
+# MCP SDK + Fast wrapper
+mcp>=1.0.0
+fastmcp>=2.0.0
+
+# HTTP + scraping (used by statute-lookup, EDGAR, SSO, Cornell LII, CourtListener, etc.)
+requests>=2.31.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# Document processing (used by doc-ops MCP and template generation)
+python-docx>=1.1.0
+pdfplumber>=0.10.0
+pypdf>=4.0.0
+markdown>=3.5.0
+diff-match-patch>=20230430
+
+# Search / RAG helpers (statutes-rag stub upgrades use these)
+rapidfuzz>=3.6.0
+
+# Config / data parsing
+pyyaml>=6.0
+python-dotenv>=1.0.0
+
+# Per-server optional extras live in mcp-servers/<name>/requirements.txt and are
+# pulled in automatically by scripts/install-mcp-deps.sh.
