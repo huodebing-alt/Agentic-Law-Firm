@@ -40,3 +40,15 @@ project root. The file looks like:
 ```
 
 Re-running `/onboard` re-prompts with current values pre-filled.
+
+
+
+## v0.2 — Jurisdiction step
+
+The wizard now asks one extra question up front: which jurisdiction(s) to
+enable. The answer scopes the rest of the wizard:
+
+- The MCP-install list is filtered to MCPs relevant to chosen jurisdictions.
+- The statute-library list is filtered to statutes for chosen jurisdictions.
+- The default jurisdiction is `all` (CN + SG + US).
+- Re-run `/onboard` at any time to add or drop a jurisdiction.

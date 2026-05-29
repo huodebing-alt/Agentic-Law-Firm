@@ -159,3 +159,45 @@
 ## onboarding
 
 - **onboarding-host** — First-time setup host. Walks the user through the five-question wizard and runs scripts/onboard.py with the chosen preferences. Use only via the /onboard slash command.
+
+
+
+## Singapore (10)
+
+- `sg-corporate-counsel` — Companies Act 1967, ACRA filings, board resolutions, directors' duties.
+- `sg-employment-specialist` — Employment Act, MOM, employment passes, retrenchment.
+- `sg-pdpa-specialist` — PDPA 2012, breach notification, consent, DPO.
+- `sg-tax-counsel` — Income Tax Act, GST Act, IRAS rulings, transfer pricing.
+- `sg-family-specialist` — Women's Charter, divorce, maintenance, custody, MA division.
+- `sg-ip-specialist` — Trade Marks Act, Patents Act, Copyright Act 2021, IPOS filings.
+- `sg-securities-counsel` — SFA, MAS guidelines, SGX listing.
+- `sg-cross-border-specialist` — SG-side DTAA application, FDI, BO disclosure.
+- `sg-disputes-specialist` — ROC 2021, SICC, SIAC, enforcement.
+- `sg-estate-trust-specialist` — Probate, MCA, Trustees Act, wills, LPAs.
+
+## United States (13)
+
+- `us-corporate-counsel-delaware` — DGCL, DE Chancery, board / stockholder actions.
+- `us-securities-counsel` — Securities Act 1933, Exchange Act 1934, SOX, Dodd-Frank, Reg FD.
+- `us-ma-counsel` — DGCL ss. 251 / 253 / 271, HSR, exclusivity, lockups.
+- `us-employment-counsel` — FLSA, FMLA, ADA, Title VII, NLRA, state wage/hour.
+- `us-ip-trademark-counsel` — Lanham Act, USPTO TSDR, TTAB.
+- `us-ip-patent-counsel` — 35 USC, USPTO, PTAB, claim drafting.
+- `us-tax-federal-counsel` — IRC, Treasury Regs, IRS rulings.
+- `us-tax-salt-counsel` — Nexus, apportionment, sales/use, state income tax.
+- `us-antitrust-counsel` — Sherman, Clayton, HSR, FTC Act, agency guidelines.
+- `us-privacy-counsel` — CCPA / CPRA + state patchwork (VA, CO, CT, UT, TX), HIPAA, GLBA.
+- `us-bankruptcy-counsel` — Title 11 (Chapters 7, 11, 13, 15).
+- `us-real-estate-counsel` — State-by-state, title, escrow, lease, mortgage.
+- `us-family-estate-counsel` — State family law, UPC, wills, trusts, estate / gift tax.
+
+## Cross-border (4)
+
+- `cn-sg-cross-border` — CN-SG inbound / outbound corporate, tax, employment.
+- `cn-us-cross-border` — CN-US capital markets, VIE, CFIUS, M&A.
+- `sg-us-cross-border` — SG-US structuring, holding companies, M&A.
+- `tri-jurisdiction-coordinator` — Genuine three-way matters only.
+
+## Orchestrator additions
+
+- `jurisdiction-detector` — Helper for `task-router`, classifies jurisdiction.

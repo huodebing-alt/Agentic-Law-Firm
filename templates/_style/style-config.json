@@ -1,34 +1,86 @@
 {
-  "page": {
-    "margin_top_cm": 3.7,
-    "margin_bottom_cm": 3.5,
-    "margin_left_cm": 2.8,
-    "margin_right_cm": 2.6,
-    "size": "A4"
+  "cn": {
+    "page": {
+      "margin_top_cm": 3.7,
+      "margin_bottom_cm": 3.5,
+      "margin_left_cm": 2.8,
+      "margin_right_cm": 2.6,
+      "size": "A4"
+    },
+    "fonts": {
+      "title_cn": "方正小标宋简体",
+      "title_en": "Times New Roman",
+      "h1_cn": "黑体",
+      "h2_cn": "楷体_GB2312",
+      "h3_cn": "仿宋_GB2312",
+      "body_cn": "仿宋_GB2312",
+      "body_en": "Times New Roman",
+      "statute_quote_cn": "仿宋_GB2312",
+      "signature_cn": "楷体_GB2312"
+    },
+    "sizes_pt": {
+      "title": 22,
+      "h1": 16,
+      "h2": 16,
+      "h3": 16,
+      "body": 16,
+      "body_alt": 12,
+      "statute_quote": 14,
+      "footer": 10.5
+    },
+    "line_spacing_pt": 28,
+    "first_line_indent_chars": 2,
+    "alignment": "justify",
+    "critical_warning_color_hex": "8B0000",
+    "citation_style": "GB/T 7714-2015"
   },
-  "fonts": {
-    "title_cn": "方正小标宋简体",
-    "title_en": "Times New Roman",
-    "h1_cn": "黑体",
-    "h2_cn": "楷体_GB2312",
-    "h3_cn": "仿宋_GB2312",
-    "body_cn": "仿宋_GB2312",
-    "body_en": "Times New Roman",
-    "statute_quote_cn": "仿宋_GB2312",
-    "signature_cn": "楷体_GB2312"
+  "sg": {
+    "page": {
+      "margin_mm": 25,
+      "size": "A4"
+    },
+    "fonts": {
+      "title": "Times New Roman",
+      "body": "Times New Roman",
+      "heading": "Times New Roman"
+    },
+    "sizes_pt": {
+      "title": 14,
+      "h1": 12,
+      "h2": 12,
+      "body": 12,
+      "footer": 10
+    },
+    "line_spacing": 1.5,
+    "first_line_indent_inches": 0,
+    "paragraph_numbering": "1.1.1",
+    "alignment": "justify",
+    "citation_style": "SAL Style Guide (3rd ed.)",
+    "critical_warning_color_hex": "8B0000"
   },
-  "sizes_pt": {
-    "title": 22,
-    "h1": 16,
-    "h2": 16,
-    "h3": 16,
-    "body": 16,
-    "body_alt": 12,
-    "statute_quote": 14,
-    "footer": 10.5
-  },
-  "line_spacing_pt": 28,
-  "first_line_indent_chars": 2,
-  "alignment": "justify",
-  "critical_warning_color_hex": "8B0000"
+  "us": {
+    "page": {
+      "margin_inches": 1.0,
+      "size": "US Letter"
+    },
+    "fonts": {
+      "title": "Times New Roman",
+      "body": "Times New Roman",
+      "heading": "Times New Roman"
+    },
+    "sizes_pt": {
+      "title": 14,
+      "h1": 12,
+      "h2": 12,
+      "body": 12,
+      "footer": 10
+    },
+    "line_spacing": 2.0,
+    "line_spacing_alt": 1.5,
+    "first_line_indent_inches": 0.5,
+    "page_number_position": "center_bottom_skip_first",
+    "alignment": "left",
+    "citation_style": "Bluebook 21st",
+    "critical_warning_color_hex": "8B0000"
+  }
 }

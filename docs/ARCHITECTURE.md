@@ -56,3 +56,26 @@ whose output triggers a hard-gate-list item (Section 4 of AGENTS.md)
 must hand to `hard-gate-keeper` before release. The keeper waits for
 explicit operator approval ("approve" or "release") before letting
 the deliverable out.
+
+
+
+## 4. Multi-jurisdiction routing
+
+```
+user ──► task-router ──► jurisdiction-detector ──► jurisdictional specialist set
+                              │
+                              ├── cn-* (existing flat tree under .claude/agents/<area>/)
+                              ├── sg-* (under .claude/agents/singapore/)
+                              ├── us-* (under .claude/agents/us/)
+                              └── cross-border-* (under .claude/agents/cross-border/)
+```
+
+`task-router` runs detection first, picks a single jurisdiction or
+cross-border specialist, then dispatches with a brief that explicitly
+names the governing law. Specialists hand off to `doc-ops` for formatting
+per the chosen jurisdiction's style (CN per GB/T 9704—2012, SG per SAL
+Style Guide, US per Bluebook).
+
+MCP servers are namespaced: `sg-*` under `mcp-servers/singapore/`, `us-*`
+under `mcp-servers/us/`, CN servers retain the existing flat layout under
+`mcp-servers/<name>/`.

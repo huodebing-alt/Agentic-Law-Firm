@@ -37,3 +37,30 @@ the real backend.
   Alpha 法律智能操作系统, Lawsdata) or a snapshot.
 - SAMR and CNIPA publish much of their data on their official
   websites without authentication, but rate-limit aggressively.
+
+
+
+## Singapore data sources
+
+- **sso.agc.gov.sg** — Singapore Statutes Online. HTML only; consult AGC's
+  terms before mass scraping.
+- **bizfile.gov.sg** — ACRA BizFile+. Paid commercial API for bulk; free
+  public profile lookup per UEN.
+- **ipos.gov.sg / ip2sg.gov.sg** — IPOS eSearch; HTML scrape.
+- **iras.gov.sg** — IRAS e-Tax Guides and Advance Rulings; HTML scrape.
+- **lawnet.sg** — Subscription only.
+- **singaporelawwatch.sg** — Public RSS / HTML.
+- **mas.gov.sg** — MAS Notices, Guidelines, FI register; HTML.
+- **sicc.gov.sg / siac.org.sg** — Rules, news, cause lists; HTML.
+
+## United States data sources
+
+- **law.cornell.edu** — Cornell LII. Public-domain government text;
+  free; HTML scrape, throttle politely.
+- **courtlistener.com** — Free Law Project. REST v4 API at
+  /api/rest/v4/, free key, generous rate limit.
+- **data.sec.gov / sec.gov/edgar** — SEC EDGAR. Public REST endpoints,
+  no auth, ≤10 r/s, declare user-agent header.
+- **tsdr.uspto.gov / search.patentsview.org** — USPTO TSDR (TM REST)
+  and PatentsView (patent JSON search). Both free.
+- **pacer.uscourts.gov** — PACER. Paid; per-page fee; CASE Locator API.

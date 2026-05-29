@@ -161,6 +161,84 @@
       "args": [
         "mcp-servers/teams-stub/server.py"
       ]
+    },
+    "sg-sso-statutes": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/sso-statutes/server.py"
+      ]
+    },
+    "sg-acra-bizfile": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/acra-bizfile/server.py"
+      ]
+    },
+    "sg-ipos": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/ipos/server.py"
+      ]
+    },
+    "sg-iras": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/iras/server.py"
+      ]
+    },
+    "sg-lawnet": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/lawnet/server.py"
+      ]
+    },
+    "sg-singapore-law-watch": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/singapore-law-watch/server.py"
+      ]
+    },
+    "sg-mas-public": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/mas-public/server.py"
+      ]
+    },
+    "sg-sicc-siac": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/singapore/sicc-siac/server.py"
+      ]
+    },
+    "us-cornell-lii": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/us/cornell-lii/server.py"
+      ]
+    },
+    "us-courtlistener": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/us/courtlistener/server.py"
+      ]
+    },
+    "us-sec-edgar": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/us/sec-edgar/server.py"
+      ]
+    },
+    "us-uspto": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/us/uspto/server.py"
+      ]
+    },
+    "us-pacer-stub": {
+      "command": "python3",
+      "args": [
+        "mcp-servers/us/pacer-stub/server.py"
+      ]
     }
   }
 }

@@ -27,3 +27,42 @@
 - **slack-stub** (Slack) — status: `stub` — tool: `slack_call`
 - **zoom-stub** (Zoom) — status: `stub` — tool: `zoom_call`
 - **teams-stub** (Microsoft Teams) — status: `stub` — tool: `teams_call`
+
+
+
+## Singapore (8)
+
+- `sg-sso-statutes` — Singapore Statutes Online (sso.agc.gov.sg) text lookup.
+- `sg-acra-bizfile` — ACRA BizFile+ company profile / officers / charges.
+- `sg-ipos` — IPOS trademark / patent / design / copyright search.
+- `sg-iras` — IRAS e-Tax Guides, advance rulings, GST register.
+- `sg-lawnet` — LawNet (subscription) SG case-law search.
+- `sg-singapore-law-watch` — Daily SG legal news headlines.
+- `sg-mas-public` — MAS Notices, Guidelines, FI register.
+- `sg-sicc-siac` — SICC + SIAC rules and cause lists.
+
+## United States (5)
+
+- `us-cornell-lii` — Cornell LII USC / CFR / FRCP / state code lookup.
+- `us-courtlistener` — CourtListener / Free Law Project case-law search.
+- `us-sec-edgar` — SEC EDGAR public-company filings.
+- `us-uspto` — USPTO TSDR (trademarks) + PatentsView (patents).
+- `us-pacer-stub` — PACER federal dockets (subscription, stub).
+
+## Real-API readiness
+
+| Server | Status | Real-API path |
+|---|---|---|
+| sg-sso-statutes | stub | Public HTML scrape of sso.agc.gov.sg |
+| sg-acra-bizfile | stub | Paid BizFile+ API or HTML scrape of public profile |
+| sg-ipos | stub | IP2SG public search HTML / undocumented API |
+| sg-iras | stub | Public HTML scrape of iras.gov.sg |
+| sg-lawnet | stub | Subscription required |
+| sg-singapore-law-watch | stub | Public HTML scrape |
+| sg-mas-public | stub | Public HTML scrape of mas.gov.sg |
+| sg-sicc-siac | stub | Public HTML scrape |
+| us-cornell-lii | stub | Public-domain HTML scrape, no auth |
+| us-courtlistener | stub | Free-tier REST v4 API, free API key |
+| us-sec-edgar | stub | Public REST at data.sec.gov, throttle 10 r/s |
+| us-uspto | stub | TSDR + PatentsView, both free |
+| us-pacer-stub | stub | PACER pay-per-page subscription |

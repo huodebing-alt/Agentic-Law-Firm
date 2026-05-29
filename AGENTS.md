@@ -125,3 +125,37 @@ Save the polish for the user-facing deliverable.
   Chinese unless the user explicitly asks for English)
 - Producing decorative output (banners, ASCII art, emoji)
 - Skipping hard-gate-keeper on hard-gate triggers
+
+
+## 7. Jurisdiction routing
+
+The `task-router` performs jurisdiction detection at Step 0 of intake:
+
+- **CN triggers**: 民法典 / 公司法 / RMB / 北京 / 上海 / 工商局 / 国家市场监督管理总局 / 有限公司 / 有限责任公司
+- **SG triggers**: Singapore / Pte Ltd / ACRA / MOM / PDPA / MAS / SGX / IPOS / SIAC / SICC / Women's Charter
+- **US triggers**: USC / DGCL / CCPA / FLSA / SEC / EDGAR / USPTO / Inc. / LLC / Delaware / California / Bluebook
+- **Cross-border triggers**: 跨境, cross-border, VIE, CFIUS, DTAA, 出海, 海外上市
+
+When the request is ambiguous, the router asks one clarification question
+before dispatch. When the request fires triggers in two or more sets, the
+router routes to the appropriate cross-border specialist
+(`cn-sg-cross-border`, `cn-us-cross-border`, `sg-us-cross-border`, or
+`tri-jurisdiction-coordinator`).
+
+The helper agent `jurisdiction-detector` is available as a
+deterministic classifier that the router can spawn before dispatch.
+
+## 7. 司法管辖区路由（中文版）
+
+`task-router` 在接案第 0 步会做 jurisdiction 检测：
+
+- CN 触发词：民法典 / 公司法 / 人民币 / 北京 / 上海 / 工商局 / 国家市场监督管理总局 / 有限公司
+- SG 触发词：Singapore / Pte Ltd / ACRA / MOM / PDPA / MAS / SGX / IPOS / SIAC / SICC / Women's Charter
+- US 触发词：USC / DGCL / CCPA / FLSA / SEC / EDGAR / USPTO / Inc. / LLC / Delaware / California / Bluebook
+- 跨境触发词：跨境 / cross-border / VIE / CFIUS / DTAA / 出海 / 海外上市
+
+模糊时只问一句澄清。两个及以上法域触发词同时出现时，直接路由到对应的跨境
+specialist（cn-sg-cross-border / cn-us-cross-border / sg-us-cross-border /
+tri-jurisdiction-coordinator）。
+
+helper agent `jurisdiction-detector` 可被 router 调用作为确定性分类器。

@@ -193,3 +193,41 @@
 - **configure-hard-gates** — Configure hard-gate triggers and the deal-value threshold.
 - **install-mcp** — Install one or more MCP servers into the active harness configuration.
 - **download-statutes** — Download statute texts into statutes/ per manifest.
+
+
+
+## Singapore (33)
+
+- Corporate: `sg-companies-act-incorporation`, `sg-acra-bizfile-search`, `sg-bo-register-filing`, `sg-share-buyback-analysis`, `sg-dividend-declaration`.
+- Employment: `sg-employment-contract-drafting`, `sg-mom-work-pass-strategy`, `sg-employment-act-part-iv-screen`.
+- Privacy: `sg-pdpa-impact-assessment`, `sg-pdpa-breach-notification`, `sg-data-protection-officer-appointment`.
+- Tax: `sg-gst-registration-analysis`, `sg-income-tax-residency-determination`, `sg-tax-treaty-application`.
+- Family: `sg-divorce-petition-drafting`, `sg-maintenance-application`.
+- IP: `sg-trademark-application-ipos`, `sg-patent-application-ipos`, `sg-copyright-assignment-drafting`.
+- Securities: `sg-sfa-licensing-analysis`, `sg-sgx-listing-readiness`, `sg-mas-compliance-check`, `sg-mas-aml-cft-screen`.
+- Disputes: `sg-siac-arbitration-claim`, `sg-sicc-cross-border-litigation`.
+- Estate: `sg-probate-application`, `sg-will-drafting-sg`, `sg-power-of-attorney-sg`.
+- Research / lookup: `sg-statute-lookup-sso`, `sg-acra-company-search`, `sg-ipos-trademark-search`, `sg-iras-tax-ruling-search`.
+- Cross-cutting: `sg-cross-jurisdiction-statute-compare`.
+
+## United States (37)
+
+- Corporate: `us-delaware-incorporation`, `us-dgcl-fiduciary-duty-analysis`.
+- Securities: `us-spa-drafting-us`, `us-stock-purchase-agreement`, `us-sec-edgar-filing-search`, `us-10k-extraction`, `us-13d-13g-monitoring`, `us-edgar-form4-monitoring`, `us-securities-rule-10b5-1-plan`, `us-sox-302-404-checklist`.
+- M&A / antitrust: `us-hsr-filing-analysis`, `us-merger-clearance-us`, `us-sherman-act-section-1-analysis`, `us-sherman-act-section-2-analysis`.
+- Privacy: `us-ccpa-readiness-assessment`, `us-cpra-rights-request-handling`, `us-state-privacy-comparison`.
+- Employment: `us-flsa-overtime-analysis`, `us-employment-agreement-us`, `us-non-compete-state-enforceability`.
+- IP: `us-uspto-trademark-search-tsdr`, `us-trademark-application-us`, `us-patent-claim-drafting`, `us-patent-search-patentsview`.
+- Tax: `us-federal-tax-analysis-irc`, `us-state-tax-nexus-analysis`, `us-transfer-pricing-us`.
+- Bankruptcy: `us-chapter-7-petition`, `us-chapter-11-restructuring`.
+- Real estate / estate: `us-real-estate-closing-checklist-us`, `us-will-drafting-us`, `us-revocable-trust-us`.
+- Research / lookup: `us-courtlistener-case-search`, `us-cornell-lii-statute-lookup`, `us-federal-rules-civil-procedure-quick-reference`, `us-bluebook-citation-format`.
+- Compliance: `us-fcpa-third-party-due-diligence`.
+
+## Cross-border (10)
+
+`cn-us-vie-structure-readiness`, `cn-us-ipo-prep`, `cn-us-cfius-filing`,
+`cn-sg-holding-company-setup`, `cn-sg-wfoe-establishment`,
+`sg-us-tax-treaty-application`, `cross-jurisdiction-conflict-of-laws-memo`,
+`tri-jurisdiction-tax-planning`, `multi-jurisdiction-due-diligence-coordination`,
+`cross-border-dispute-forum-selection`.

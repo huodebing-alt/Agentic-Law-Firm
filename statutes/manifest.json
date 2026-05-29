@@ -1,108 +1,239 @@
 {
-  "version": "0.1",
-  "source": "Primarily 国家法律法规数据库 (flk.npc.gov.cn). Subscription sources may give faster cross-referencing.",
-  "statutes": [
+  "version": "0.2",
+  "sources": {
+    "cn": "zh.wikisource.org / flk.npc.gov.cn",
+    "sg": "sso.agc.gov.sg",
+    "us": "law.cornell.edu"
+  },
+  "cn": [
     {
-      "key": "civil-code",
-      "title_cn": "中华人民共和国民法典",
-      "title_en": "PRC Civil Code",
-      "effective": "2021-01-01"
+      "name": "中华人民共和国民法典",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/civil-code.md"
     },
     {
-      "key": "company-law",
-      "title_cn": "中华人民共和国公司法",
-      "title_en": "PRC Company Law",
-      "effective": "2024-07-01"
+      "name": "中华人民共和国公司法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/company-law.md"
     },
     {
-      "key": "contract-judicial-interp",
-      "title_cn": "最高人民法院关于审理民事案件适用《民法典》合同编通则若干问题的解释",
-      "title_en": "SPC interpretation on the Contracts Book of the Civil Code",
-      "effective": "2023-12-05"
+      "name": "《民法典》合同编通则司法解释",
+      "url": "https://www.court.gov.cn/",
+      "out": "statutes/cn/contract-judicial-interp.md"
     },
     {
-      "key": "foreign-investment-law",
-      "title_cn": "中华人民共和国外商投资法",
-      "title_en": "PRC Foreign Investment Law",
-      "effective": "2020-01-01"
+      "name": "中华人民共和国外商投资法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/foreign-investment-law.md"
     },
     {
-      "key": "labor-contract-law",
-      "title_cn": "中华人民共和国劳动合同法",
-      "title_en": "PRC Labour Contract Law",
-      "effective": "2008-01-01"
+      "name": "中华人民共和国劳动合同法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/labor-contract-law.md"
     },
     {
-      "key": "anti-monopoly-law",
-      "title_cn": "中华人民共和国反垄断法",
-      "title_en": "PRC Anti-Monopoly Law",
-      "effective": "2022-08-01"
+      "name": "中华人民共和国劳动法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/labor-law.md"
     },
     {
-      "key": "personal-information-protection-law",
-      "title_cn": "中华人民共和国个人信息保护法",
-      "title_en": "PRC Personal Information Protection Law",
-      "effective": "2021-11-01"
+      "name": "中华人民共和国反垄断法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/antitrust-law.md"
     },
     {
-      "key": "data-security-law",
-      "title_cn": "中华人民共和国数据安全法",
-      "title_en": "PRC Data Security Law",
-      "effective": "2021-09-01"
+      "name": "中华人民共和国反不正当竞争法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/aucl.md"
     },
     {
-      "key": "cybersecurity-law",
-      "title_cn": "中华人民共和国网络安全法",
-      "title_en": "PRC Cybersecurity Law",
-      "effective": "2017-06-01"
+      "name": "中华人民共和国个人信息保护法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/pipl.md"
     },
     {
-      "key": "civil-procedure-law",
-      "title_cn": "中华人民共和国民事诉讼法",
-      "title_en": "PRC Civil Procedure Law",
-      "effective": "2024-01-01"
+      "name": "中华人民共和国数据安全法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/data-security-law.md"
     },
     {
-      "key": "criminal-law",
-      "title_cn": "中华人民共和国刑法",
-      "title_en": "PRC Criminal Law",
-      "effective": "2024-03-01"
+      "name": "中华人民共和国网络安全法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/cybersecurity-law.md"
     },
     {
-      "key": "arbitration-law",
-      "title_cn": "中华人民共和国仲裁法",
-      "title_en": "PRC Arbitration Law",
-      "effective": "2017-09-01"
+      "name": "中华人民共和国民事诉讼法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/civil-procedure-law.md"
     },
     {
-      "key": "trademark-law",
-      "title_cn": "中华人民共和国商标法",
-      "title_en": "PRC Trademark Law",
-      "effective": "2019-11-01"
+      "name": "中华人民共和国仲裁法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/arbitration-law.md"
     },
     {
-      "key": "patent-law",
-      "title_cn": "中华人民共和国专利法",
-      "title_en": "PRC Patent Law",
-      "effective": "2021-06-01"
+      "name": "中华人民共和国企业所得税法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/enterprise-income-tax-law.md"
     },
     {
-      "key": "copyright-law",
-      "title_cn": "中华人民共和国著作权法",
-      "title_en": "PRC Copyright Law",
-      "effective": "2021-06-01"
+      "name": "中华人民共和国个人所得税法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/individual-income-tax-law.md"
     },
     {
-      "key": "anti-unfair-competition-law",
-      "title_cn": "中华人民共和国反不正当竞争法",
-      "title_en": "PRC Anti-Unfair-Competition Law",
-      "effective": "2019-04-23"
+      "name": "中华人民共和国商标法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/trademark-law.md"
     },
     {
-      "key": "advertising-law",
-      "title_cn": "中华人民共和国广告法",
-      "title_en": "PRC Advertising Law",
-      "effective": "2021-04-29"
+      "name": "中华人民共和国专利法",
+      "url": "https://flk.npc.gov.cn/",
+      "out": "statutes/cn/patent-law.md"
+    }
+  ],
+  "sg": [
+    {
+      "name": "Companies Act 1967",
+      "url": "https://sso.agc.gov.sg/Act/CoA1967",
+      "out": "statutes/sg/companies-act-1967.md"
+    },
+    {
+      "name": "Employment Act 1968",
+      "url": "https://sso.agc.gov.sg/Act/EmA1968",
+      "out": "statutes/sg/employment-act.md"
+    },
+    {
+      "name": "Personal Data Protection Act 2012",
+      "url": "https://sso.agc.gov.sg/Act/PDPA2012",
+      "out": "statutes/sg/pdpa.md"
+    },
+    {
+      "name": "Securities and Futures Act 2001",
+      "url": "https://sso.agc.gov.sg/Act/SFA2001",
+      "out": "statutes/sg/sfa.md"
+    },
+    {
+      "name": "Penal Code 1871",
+      "url": "https://sso.agc.gov.sg/Act/PC1871",
+      "out": "statutes/sg/penal-code.md"
+    },
+    {
+      "name": "Women's Charter 1961",
+      "url": "https://sso.agc.gov.sg/Act/WC1961",
+      "out": "statutes/sg/womens-charter.md"
+    },
+    {
+      "name": "Income Tax Act 1947",
+      "url": "https://sso.agc.gov.sg/Act/ITA1947",
+      "out": "statutes/sg/income-tax-act.md"
+    },
+    {
+      "name": "Goods and Services Tax Act 1993",
+      "url": "https://sso.agc.gov.sg/Act/GSTA1993",
+      "out": "statutes/sg/gst-act.md"
+    },
+    {
+      "name": "Mental Capacity Act 2008",
+      "url": "https://sso.agc.gov.sg/Act/MCA2008",
+      "out": "statutes/sg/mental-capacity-act.md"
+    },
+    {
+      "name": "Probate and Administration Act 1934",
+      "url": "https://sso.agc.gov.sg/Act/PAA1934",
+      "out": "statutes/sg/probate-administration-act.md"
+    },
+    {
+      "name": "Trustees Act 1967",
+      "url": "https://sso.agc.gov.sg/Act/TA1967",
+      "out": "statutes/sg/trustees-act.md"
+    },
+    {
+      "name": "Trade Marks Act 1998",
+      "url": "https://sso.agc.gov.sg/Act/TMA1998",
+      "out": "statutes/sg/trade-marks-act.md"
+    },
+    {
+      "name": "Patents Act 1994",
+      "url": "https://sso.agc.gov.sg/Act/PA1994",
+      "out": "statutes/sg/patents-act.md"
+    },
+    {
+      "name": "Copyright Act 2021",
+      "url": "https://sso.agc.gov.sg/Act/CA2021",
+      "out": "statutes/sg/copyright-act.md"
+    },
+    {
+      "name": "Competition Act 2004",
+      "url": "https://sso.agc.gov.sg/Act/CA2004",
+      "out": "statutes/sg/competition-act.md"
+    },
+    {
+      "name": "Casino Control Act 2006",
+      "url": "https://sso.agc.gov.sg/Act/CCA2006",
+      "out": "statutes/sg/casino-control-act.md"
+    }
+  ],
+  "us": [
+    {
+      "name": "Title 11 USC (Bankruptcy)",
+      "url": "https://www.law.cornell.edu/uscode/text/11",
+      "out": "statutes/us/11-usc.md"
+    },
+    {
+      "name": "Title 15 USC (Commerce and Trade)",
+      "url": "https://www.law.cornell.edu/uscode/text/15",
+      "out": "statutes/us/15-usc.md"
+    },
+    {
+      "name": "Title 17 USC (Copyrights)",
+      "url": "https://www.law.cornell.edu/uscode/text/17",
+      "out": "statutes/us/17-usc.md"
+    },
+    {
+      "name": "Title 26 USC (Internal Revenue Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/26",
+      "out": "statutes/us/26-usc.md"
+    },
+    {
+      "name": "Title 28 USC (Judiciary and Judicial Procedure)",
+      "url": "https://www.law.cornell.edu/uscode/text/28",
+      "out": "statutes/us/28-usc.md"
+    },
+    {
+      "name": "Title 29 USC (Labor)",
+      "url": "https://www.law.cornell.edu/uscode/text/29",
+      "out": "statutes/us/29-usc.md"
+    },
+    {
+      "name": "Title 35 USC (Patents)",
+      "url": "https://www.law.cornell.edu/uscode/text/35",
+      "out": "statutes/us/35-usc.md"
+    },
+    {
+      "name": "Title 42 USC (Public Health and Welfare)",
+      "url": "https://www.law.cornell.edu/uscode/text/42",
+      "out": "statutes/us/42-usc.md"
+    },
+    {
+      "name": "Delaware General Corporation Law",
+      "url": "https://delcode.delaware.gov/title8/c001/index.html",
+      "out": "statutes/us/dgcl.md"
+    },
+    {
+      "name": "California Consumer Privacy Act / CPRA",
+      "url": "https://oag.ca.gov/privacy/ccpa",
+      "out": "statutes/us/ccpa-cpra.md"
+    },
+    {
+      "name": "New York Business Corporation Law",
+      "url": "https://www.nysenate.gov/legislation/laws/BSC",
+      "out": "statutes/us/ny-bcl.md"
+    },
+    {
+      "name": "Texas Business Organizations Code",
+      "url": "https://statutes.capitol.texas.gov/Docs/BO/htm/BO.1.htm",
+      "out": "statutes/us/tx-boc.md"
     }
   ]
 }
